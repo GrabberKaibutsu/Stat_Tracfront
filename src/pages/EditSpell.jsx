@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const host = 'http://https://backendstat-583853ad39d9.herokuapp.com:3001';
+const host = 'https://backendstat-583853ad39d9.herokuapp.com:3001';
 
 const EditSpell = () => {
   const { spellId } = useParams();

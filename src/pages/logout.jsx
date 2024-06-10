@@ -9,7 +9,7 @@ const Logout = () => {
   useEffect(() => {
     const logoutUser = async () => {
       try {
-        const response = await fetch("http://https://backendstat-583853ad39d9.herokuapp.com:3001/users/logout", {
+        const response = await fetch("https://backendstat-583853ad39d9.herokuapp.com:3001/users/logout", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

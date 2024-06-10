@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 
-const host = 'http://https://backendstat-583853ad39d9.herokuapp.com:3001';
+const host = 'https://backendstat-583853ad39d9.herokuapp.com:3001';
 
 const Characters = () => {
   const { user } = useContext(AuthContext);
