@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-const host = 'http://localhost:3001';
+const host = 'http://https://backendstat-583853ad39d9.herokuapp.com:3001';
 
 const SpellDetail = () => {
   const { id } = useParams();
