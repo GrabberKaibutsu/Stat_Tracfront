@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 
-const host = 'https://backendstat-583853ad39d9.herokuapp.com:3001';
+const host = 'https://backendstat-583853ad39d9.herokuapp.com';
 
 const SkillDetail = () => {
   const { id } = useParams();

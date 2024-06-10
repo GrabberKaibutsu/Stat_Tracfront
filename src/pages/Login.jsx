@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 
-const host = 'https://backendstat-583853ad39d9.herokuapp.com:3001';
+const host = 'https://backendstat-583853ad39d9.herokuapp.com';
 
 const Login = () => {
   const [formData, setFormData] = useState({
